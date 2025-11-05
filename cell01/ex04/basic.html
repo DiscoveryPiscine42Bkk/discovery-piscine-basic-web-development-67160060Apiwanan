@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: white;
+            font-size: 64px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .shop-row {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40px;
+        }
+
+        .shop {
+            text-align: center;
+        }
+
+        .shop img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .shop img:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            width: 90%;
+            margin: 50px 0;
+            border: none;
+            border-top: 2px solid white;
+        }
+
+        footer {
+            width: 100%;
+            text-align: right;
+            padding: 10px 30px;
+            font-style: italic;
+            font-family: "Courier New", monospace;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to ApShop ∆</h1>
+
+    <div class="shop-row">
+        <div class="shop">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+            <a href="https://www.amazon.com" target="_blank">Visit Amazon</a>
+        </div>
+        <div class="shop">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/2560px-EBay_logo.svg.png" alt="eBay">
+            <a href="https://www.ebay.com" target="_blank">Visit eBay</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        © apiwanan 2025
+    </footer>
+</body>
+</html>
